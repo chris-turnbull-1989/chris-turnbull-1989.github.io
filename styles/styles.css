@@ -8,13 +8,10 @@ body {
 
 header {
     width: 100%;
-    height: 500px;
+    height: 50vh;
 }
 
-header img {
-    width: 100%;
-    height: 500px;
-}
+
 
 .nav-item {
    
@@ -57,12 +54,13 @@ header img {
 
 #indexBanner {
     background-image: url(/styles/images/journey1.jfif);
-    background-color: black;
     background-size: cover;
     background-repeat: no-repeat;
-    display: inline-block;
+    display: flex;
     margin-top: 55px;
-    position: relative;
+    align-items: center;
+    justify-content: center;
+   
 
 }
 
@@ -75,7 +73,7 @@ header img {
 }
 
 .mainBanner {
-    position: absolute;
+    
     top: 40%;
     margin: 0 auto 0 auto;
     width: 100%;
@@ -91,6 +89,7 @@ header img {
 .sectionTitle {
     margin: 20px 0 20px 0;
     width: 100%;
+    overflow: auto;
 
 }
 
@@ -98,6 +97,9 @@ header img {
     margin-bottom: 100px;
 }
 
+.sectionTitle{
+    height: 100vh;
+}
 .sectionTitle h1 {
     font-size: 300%;
     text-align: center;
@@ -109,3 +111,9 @@ header img {
     line-height: 500px;
 }
 
+.row {
+    display:grid;
+    gap: 40px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    align-items: center;
+}
