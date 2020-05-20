@@ -30,7 +30,7 @@ header img {
 }
 
 #indexBanner {
-    background-image: url(styles/images/journey1.jfif);
+    background-image: url(/styles/images/journey1.jfif);
     background-color: black;
     background-size: cover;
     background-repeat: no-repeat;
