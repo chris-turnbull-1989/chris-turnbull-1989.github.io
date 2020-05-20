@@ -1,7 +1,7 @@
 
 html,
 body {
-    margin: 0;
+    margin: auto 0;
     font-size: 16px;
     color: #a81200;
 }
@@ -16,26 +16,42 @@ header img {
     height: 500px;
 }
 
-
+.nav-item {
+   
+    
+   
+    white-space: nowrap;
+    
+}
 
 .nav-fixed {
+    
     position: fixed;
-
     z-index: 9999;
     top: 0;
     left: 0;
     right: 0;
 
 }
+
+
 .navbar-brand{
 
     color:  #a81200 !important;
     
  }
-
+ .goldPartnerLogo{
+     margin-left: auto;
+ }
+ 
 .goldPartnerLogo img {
+    display: flex;
     width: 35%;
+    min-width: 152px;
+    min-height: 40px;
     vertical-align: middle;
+   justify-self: end;
+    margin-left: auto;
     
 }
 
